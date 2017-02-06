@@ -1,3 +1,16 @@
+## Post-lecture Challenges
+
+1. Add buttons to our Counter component to decrement the count and reset the count (Decrement should subtract by 1, reset should set the count to zero.)
+  + To do this, you should dispatch a different action whenever the button is clicked.
+
+2. Create a new component to represent a note list. This component should render out a list of notes from the noteStore.
+3. Add an form with an input for note. When the form is submitted, we should add that note into the state and re-render our NoteList component. 
+
+
+
+
+## NOTES
+
 1. What is Redux?
   + A predictable state container for JS apps
   + Gives us a single source of truth for our application state
